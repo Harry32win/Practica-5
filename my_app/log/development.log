@@ -1,0 +1,343 @@
+Started GET "/" for 127.0.0.1 at 2024-09-03 15:49:14 -0600
+  [1m[35m (4.9ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /root/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.2.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /root/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.2.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.5ms | GC: 0.0ms)
+Completed 200 OK in 65ms (Views: 14.7ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2024-09-03 15:57:54 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /root/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.2.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /root/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.2.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.2ms | GC: 0.0ms)
+Completed 200 OK in 29ms (Views: 9.3ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2024-09-03 15:58:29 -0600
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /root/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.2.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /root/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.2.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.3ms | GC: 0.0ms)
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/welcome/index" for ::1 at 2024-09-03 16:01:30 -0600
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 6.9ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 950.7ms | GC: 46.4ms)
+Completed 200 OK in 1042ms (Views: 953.3ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 46.4ms)
+
+
+Started GET "/manifest.json" for ::1 at 2024-09-03 16:01:32 -0600
+Processing by Rails::PwaController#manifest as JSON
+  Rendering pwa/manifest.json.erb
+  Rendered pwa/manifest.json.erb (Duration: 2.3ms | GC: 0.0ms)
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/welcome/index" for ::1 at 2024-09-03 16:11:53 -0600
+  
+SyntaxError (/home/harry321/Documents/PR4/my_app/app/controllers/welcome_controller.rb:4: syntax error, unexpected instance variable, expecting `end'
+  end@dias_semana =
+     ^~~~~~~~~~~~
+):
+  
+app/controllers/welcome_controller.rb:4: syntax error, unexpected instance variable, expecting `end'
+Started GET "/favicon.ico" for ::1 at 2024-09-03 16:11:54 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/welcome/index" for ::1 at 2024-09-03 16:13:45 -0600
+  
+SyntaxError (/home/harry321/Documents/PR4/my_app/app/controllers/welcome_controller.rb:4: syntax error, unexpected instance variable, expecting end-of-input
+end@dias_semana =
+   ^~~~~~~~~~~~
+):
+  
+app/controllers/welcome_controller.rb:4: syntax error, unexpected instance variable, expecting end-of-input
+Started GET "/welcome/index" for ::1 at 2024-09-03 16:14:32 -0600
+  
+SyntaxError (/home/harry321/Documents/PR4/my_app/app/controllers/welcome_controller.rb:3: syntax error, unexpected instance variable, expecting `end'
+end@dias_semana =
+   ^~~~~~~~~~~~
+/home/harry321/Documents/PR4/my_app/app/controllers/welcome_controller.rb:4: syntax error, unexpected end-of-input, expecting `end'
+...,"Viernes","Sábado","Domingo"]
+...                               ^
+):
+  
+app/controllers/welcome_controller.rb:3: syntax error, unexpected instance variable, expecting `end'
+app/controllers/welcome_controller.rb:4: syntax error, unexpected end-of-input, expecting `end'
+Started GET "/welcome/index" for ::1 at 2024-09-03 16:14:36 -0600
+  
+SyntaxError (/home/harry321/Documents/PR4/my_app/app/controllers/welcome_controller.rb:3: syntax error, unexpected instance variable, expecting `end'
+end@dias_semana =
+   ^~~~~~~~~~~~
+/home/harry321/Documents/PR4/my_app/app/controllers/welcome_controller.rb:4: syntax error, unexpected end-of-input, expecting `end'
+...,"Viernes","Sábado","Domingo"]
+...                               ^
+):
+  
+app/controllers/welcome_controller.rb:3: syntax error, unexpected instance variable, expecting `end'
+app/controllers/welcome_controller.rb:4: syntax error, unexpected end-of-input, expecting `end'
+Started GET "/welcome/index" for ::1 at 2024-09-03 16:16:50 -0600
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 20.7ms | GC: 0.3ms)
+  Rendered layout layouts/application.html.erb (Duration: 23.5ms | GC: 0.3ms)
+Completed 500 Internal Server Error in 28ms (ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.3ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+
+Causes:
+NoMethodError (undefined method `each' for nil:NilClass)
+    3: <p>UNAN-León</p>
+    4: 
+    5: <h3>Imprimiendo un array Ruby dentro de una vista</h3>
+    6:  <% @dias_semana.each do |dia| %>
+    7:  <%= dia %> <br>
+    8: <% end %>
+    9: 
+  
+app/views/welcome/index.html.erb:6
+Started GET "/welcome/index" for ::1 at 2024-09-03 16:19:13 -0600
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 2.3ms | GC: 0.3ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.8ms | GC: 0.3ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.5ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+
+Causes:
+NoMethodError (undefined method `each' for nil:NilClass)
+    3: <p>UNAN-León</p>
+    4: 
+    5: <h3>Imprimiendo un array Ruby dentro de una vista</h3>
+    6:  <% @dias_semana.each do |dia| %>
+    7:  <%= dia %> <br>
+    8: <% end %>
+    9: 
+  
+app/views/welcome/index.html.erb:6
+Started GET "/welcome/index" for ::1 at 2024-09-03 16:19:17 -0600
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 2.7ms | GC: 0.5ms)
+  Rendered layout layouts/application.html.erb (Duration: 4.4ms | GC: 0.5ms)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.5ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+
+Causes:
+NoMethodError (undefined method `each' for nil:NilClass)
+    3: <p>UNAN-León</p>
+    4: 
+    5: <h3>Imprimiendo un array Ruby dentro de una vista</h3>
+    6:  <% @dias_semana.each do |dia| %>
+    7:  <%= dia %> <br>
+    8: <% end %>
+    9: 
+  
+app/views/welcome/index.html.erb:6
+Started GET "/welcome/index" for ::1 at 2024-09-03 16:25:42 -0600
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 2.3ms | GC: 0.2ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.6ms | GC: 0.2ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.5ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+
+Causes:
+NoMethodError (undefined method `each' for nil:NilClass)
+    3: <p>UNAN-León</p>
+    4: 
+    5: <h3>Imprimiendo un array Ruby dentro de una vista</h3>
+    6:  <% @dias_semana.each do |dia| %>
+    7:  <%= dia %> <br>
+    8: <% end %>
+    9: </h3>
+  
+app/views/welcome/index.html.erb:6
+Started GET "/welcome/index" for ::1 at 2024-09-03 16:27:11 -0600
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 3.4ms | GC: 0.3ms)
+  Rendered layout layouts/application.html.erb (Duration: 4.6ms | GC: 0.3ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.3ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+
+Causes:
+NoMethodError (undefined method `each' for nil:NilClass)
+    3: <p>UNAN-León</p>
+    4: 
+    5: <h3>Imprimiendo un array Ruby dentro de una vista</h3>
+    6:  <% @dias_semana.each do |dia| %>
+    7:  <%= dia %> <br>
+    8: <% end %>
+    9: </h3>
+  
+app/views/welcome/index.html.erb:6
+Started GET "/welcome/index" for ::1 at 2024-09-03 16:33:35 -0600
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 3.9ms | GC: 1.1ms)
+  Rendered layout layouts/application.html.erb (Duration: 4.3ms | GC: 1.1ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 1.1ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+
+Causes:
+NoMethodError (undefined method `each' for nil:NilClass)
+    3: <p>UNAN-León</p>
+    4: 
+    5: <h3>Imprimiendo un array Ruby dentro de una vista</h3>
+    6:  <% @dias_semana.each do |dia| %>
+    7:  <%= dia %> <br>
+    8: <% end %>
+    9: </h3>
+  
+app/views/welcome/index.html.erb:6
+Started GET "/welcome/index" for ::1 at 2024-09-03 16:33:39 -0600
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 2.2ms | GC: 0.5ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.6ms | GC: 0.5ms)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.5ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+
+Causes:
+NoMethodError (undefined method `each' for nil:NilClass)
+    3: <p>UNAN-León</p>
+    4: 
+    5: <h3>Imprimiendo un array Ruby dentro de una vista</h3>
+    6:  <% @dias_semana.each do |dia| %>
+    7:  <%= dia %> <br>
+    8: <% end %>
+    9: </h3>
+  
+app/views/welcome/index.html.erb:6
+Started GET "/welcome/index" for ::1 at 2024-09-03 16:38:28 -0600
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 2.6ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 129.5ms | GC: 1.8ms)
+Completed 200 OK in 134ms (Views: 131.0ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 2.1ms)
+
+
+Started GET "/manifest.json" for ::1 at 2024-09-03 16:38:29 -0600
+Processing by Rails::PwaController#manifest as JSON
+  Rendering pwa/manifest.json.erb
+  Rendered pwa/manifest.json.erb (Duration: 0.5ms | GC: 0.0ms)
+Completed 200 OK in 10ms (Views: 9.7ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/welcome/index" for ::1 at 2024-09-03 17:20:29 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.7ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 257.2ms | GC: 17.4ms)
+Completed 200 OK in 310ms (Views: 264.3ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 18.7ms)
+
+
+Started GET "/manifest.json" for ::1 at 2024-09-03 17:20:30 -0600
+Processing by Rails::PwaController#manifest as JSON
+  Rendering pwa/manifest.json.erb
+  Rendered pwa/manifest.json.erb (Duration: 4.4ms | GC: 0.0ms)
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.2ms)
+
+
+Started GET "/" for ::1 at 2024-09-03 17:20:45 -0600
+Processing by HashController#mostrar as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering hash/mostrar.html.erb within layouts/application
+  Rendered hash/mostrar.html.erb within layouts/application (Duration: 1.5ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 5.3ms | GC: 0.4ms)
+Completed 200 OK in 14ms (Views: 6.3ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.8ms)
+
+
+Started GET "/manifest.json" for ::1 at 2024-09-03 17:20:45 -0600
+Processing by Rails::PwaController#manifest as JSON
+  Rendering pwa/manifest.json.erb
+  Rendered pwa/manifest.json.erb (Duration: 0.3ms | GC: 0.0ms)
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for ::1 at 2024-09-03 17:22:24 -0600
+Processing by HashController#mostrar as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering hash/mostrar.html.erb within layouts/application
+  Rendered hash/mostrar.html.erb within layouts/application (Duration: 1.4ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 203.5ms | GC: 124.0ms)
+Completed 200 OK in 207ms (Views: 205.5ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 124.3ms)
+
+
+Started GET "/manifest.json" for ::1 at 2024-09-03 17:22:24 -0600
+Processing by Rails::PwaController#manifest as JSON
+  Rendering pwa/manifest.json.erb
+  Rendered pwa/manifest.json.erb (Duration: 2.4ms | GC: 0.4ms)
+Completed 200 OK in 5ms (Views: 4.8ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.8ms)
+
+
+Started GET "/" for ::1 at 2024-09-03 17:24:11 -0600
+Processing by HashController#mostrar as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering hash/mostrar.html.erb within layouts/application
+  Rendered hash/mostrar.html.erb within layouts/application (Duration: 1.3ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 62.2ms | GC: 1.9ms)
+Completed 200 OK in 85ms (Views: 70.3ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 1.9ms)
+
+
+Started GET "/manifest.json" for ::1 at 2024-09-03 17:24:12 -0600
+Processing by Rails::PwaController#manifest as JSON
+  Rendering pwa/manifest.json.erb
+  Rendered pwa/manifest.json.erb (Duration: 4.4ms | GC: 0.0ms)
+Completed 200 OK in 10ms (Views: 9.6ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.1ms)
+
+
+Started GET "/" for ::1 at 2024-09-03 17:24:53 -0600
+Processing by HashController#mostrar as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering hash/mostrar.html.erb within layouts/application
+  Rendered hash/mostrar.html.erb within layouts/application (Duration: 0.8ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 26.9ms | GC: 0.0ms)
+Completed 200 OK in 40ms (Views: 30.7ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/manifest.json" for ::1 at 2024-09-03 17:24:53 -0600
+Processing by Rails::PwaController#manifest as JSON
+  Rendering pwa/manifest.json.erb
+  Rendered pwa/manifest.json.erb (Duration: 6.1ms | GC: 0.0ms)
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+

@@ -1,0 +1,27 @@
+h1
+{
+ color: black;
+ height: 30px;
+ text-align: center;
+}
+p
+{
+ height:15px;
+ text-align: center;
+}
+table {
+    width: 50%;
+    margin: 0 auto;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
